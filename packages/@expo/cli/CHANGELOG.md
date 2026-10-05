@@ -1,5 +1,13 @@
 # Changelog
 
+## 58.1.3
+
+### Patch Changes
+
+- Prevent the internal `set()` object utility from writing to `Object.prototype` when a path contains `__proto__`, `constructor`, or `prototype`. ([#51066](https://github.com/expo/expo/pull/51066) by [@byCedric](https://github.com/byCedric))
+- Updated dependencies. ([#49878](https://github.com/expo/expo/pull/49878))
+  - @expo/router-server@58.0.8
+
 ## 58.1.2
 
 ### Patch Changes
